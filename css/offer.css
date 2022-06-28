@@ -1,0 +1,42 @@
+.offer {
+    min-height: 949px;
+    text-align: center;
+}
+
+.card_wrapper {
+    padding: 27.43px 0 116px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.card {
+    width: 33.33%;
+    box-sizing: border-box;
+    text-align: center;
+    min-width: 370px;
+    padding-top: 88.57px;
+    padding-right: 29px;
+}
+
+/* .card:not(:last-child) {
+    padding-right: 29px;
+} */
+
+.card_name {
+    min-width: 370px;
+    min-height: 72px;
+    padding: 29px 0 29.43px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+
+}
+
+.card_desc {
+    min-width: 370px;
+    font-size: 18px;
+    line-height: 21.13px;
+}

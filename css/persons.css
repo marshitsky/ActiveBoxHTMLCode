@@ -1,0 +1,40 @@
+.persons {
+    min-width: 847px;
+    padding: 35.78px 0 114px;
+}
+
+.persons__all {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.persons__all__person {
+    width: 25%;
+    max-width: 270px;
+
+}
+
+.persons__all__person:not(:last-child) {
+    padding-right: 30px;
+}
+
+.persons__all__person__img {
+    padding-bottom: 30px;
+}
+
+.persons__all__person__name {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 5.29px;
+}
+
+.persons__all__person__position {
+    text-transform: uppercase;
+    padding-bottom: 11.86px;
+    font-size: 18px;
+}
+
+.persons__all__person__about {
+    padding-bottom: 37.86px;
+    font-size: 18px;
+}

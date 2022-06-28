@@ -1,0 +1,69 @@
+.projects {
+    width: 100%;
+    min-height: 678px;
+    padding-bottom: 78.22px;
+}
+
+.projects__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.projects__cards__card {
+    flex: 23%;
+    max-width: 377.5px;
+    max-height: 340px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.projects__cards__card a .hover,
+.projects__cards__card a .active {
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+}
+
+.projects__cards__card__active_text {
+    position: absolute;
+    top: 40%;
+    left: 27.5%;
+    color: #FFFFFF;
+    display: none;
+}
+
+.projects__cards__card__active_text__title1 {
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20.57px;
+}
+
+.projects__cards__card__active_text__title2 {
+    font-size: 18px;
+}
+
+.projects__cards__card [for] {
+    padding: 2px 0 3px 3px;
+}
+
+.projects__cards__card a:hover .hover {
+    display: flex;
+    z-index: 1;
+}
+
+.projects__cards__card a:active .active {
+    display: flex;
+    z-index: 1;
+}
+
+ a:hover .projects__cards__card__active_text {
+    display: block;
+    z-index: 1;
+}
+

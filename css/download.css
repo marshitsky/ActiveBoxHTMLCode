@@ -1,0 +1,44 @@
+.download {
+    min-height: 224px;
+    margin: 114px 0;
+    text-align: center;
+}
+
+.download__cont__title {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+    padding-bottom: 5.29px;
+}
+
+.download__cont__text {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.download__cont__button {
+    padding-top: 47.71px;
+}
+
+.download__cont__button button {
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FF4343;
+    min-width: 369px;
+    min-height: 77.58px;
+    text-transform: uppercase;
+}
+
+.download__cont__button button:hover {
+    background-color: #E71414;
+}
+
+.download__cont__button button:active {
+    background-color: #FF4343;
+}

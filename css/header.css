@@ -1,0 +1,114 @@
+.header {
+    position: relative;
+    min-height: 747px;
+    color: #FFFFFF;
+}
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38.36px 0 35.91px;
+}
+.header_logo {
+    display: flex;
+    justify-content: left;
+}
+
+.header_logo #active {
+    width: 120.44px;
+}
+
+.header_logo #box {
+    width: 60.41px;
+    padding-left: 3.01px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: right;
+}
+
+.navigation a {
+    min-width: 134px;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+}
+
+.navigation a:hover::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #BABBC5;
+    bottom: -41px;
+    left: 0;
+    position: absolute;
+}
+
+.navigation a:active::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #E71414;
+    bottom: -41px;
+    left: 0;
+    position: absolute;
+}
+
+.navigation li:active {
+    color: #E71414;
+}
+
+.header hr {
+    border: 1px solid #BABBC5;
+    background-color: #BABBC5;
+    /* margin-top: -32px; */
+}
+
+.header_companyName {
+    padding: 129.05px 0 31.43px;
+    text-align: center;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.header__slogan {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header__button {
+    text-align: center;
+    padding: 79.57px 0 120px;
+}
+
+.header__button button {
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FF4343;
+    min-width: 369px;
+    min-height: 77.58px;
+}
+
+.header__button button:hover {
+    background-color: #E71414;
+}
+
+.header__button button:active {
+    background-color: #FF4343;
+}
+
+.background_img img,  .background_layer img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 747px;
+}

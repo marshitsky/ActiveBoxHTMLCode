@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+
+.comment {
+    min-height: 535px;
+    width: 100%;
+}
+.comment_div {
+    display: flex;
+}
+.comment__comment_div__imgLeft {
+    width: 50%;
+}
+
+.comment__comment_div__imgLeft img {
+    width: 100%;
+    height: 100%;
+}
+
+.comment__comment_div__quote {
+    width: 50%;
+    background-color: #5C3249;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 36px;
+    line-height: 49px;
+    font-style: italic;
+
+}
+.comment__comment_div__quote__text {
+    padding: 116px 129px 0 129px;
+    font-family: 'Cardo', serif;
+    margin-top: auto;
+}
+.comment__comment_div__quote__name {
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0 170px 116px 130px;
+}
+.comment__dots {
+    padding-top: 31px;
+    text-align: center;
+}

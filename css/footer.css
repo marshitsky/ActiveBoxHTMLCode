@@ -1,0 +1,80 @@
+.footer {
+    min-height: 340px;
+    position: relative;
+}
+
+.footer__up {
+    display: flex;
+    justify-content: space-around;
+    min-height: 250px;
+    
+    color: #FFFFFF;
+}
+
+.footer__up h1 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 71.14px;
+}
+
+.footer__up p {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 29px;
+}
+
+.footer__up__location {
+    min-width: 370px;
+}
+
+.footer__up__share {
+    min-width: 370px;
+}
+
+.footer__up__share__socials {
+    min-width: 370px;
+    text-align: center;
+    padding-top: 48.86px;
+}
+
+.footer__up__activebox p {
+    text-transform: capitalize;
+}
+
+.footer__down {
+    min-height: 90px;
+    text-align: center;
+    
+}
+
+.footer__backUp {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #353C65;
+    z-index: -1;
+    height: 250px;
+    width: 100%;
+}
+.footer__backDown {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #2C3154;
+    z-index: -1;
+    min-height: 90px;
+    width: 100%;
+}
+
+.footer__down__sign {
+    padding-top: 23.86px;
+    color: #808080;
+}
+
+.footer__down__sign  a {
+    color: #FFFFFF;
+}
